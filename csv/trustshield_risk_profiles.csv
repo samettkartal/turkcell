@@ -1,0 +1,46 @@
+user_id,risk_score,risk_level,signals
+U1,0,LOW,none
+U2,0,LOW,none
+U3,0,LOW,none
+U4,0,LOW,none
+U5,0,LOW,none
+U6,0,LOW,none
+U7,0,LOW,none
+U8,0,LOW,none
+U9,0,LOW,none
+U10,0,LOW,none
+U11,0,LOW,none
+U12,0,LOW,none
+U13,0,LOW,none
+U14,0,LOW,none
+U15,0,LOW,none
+U16,0,LOW,none
+U17,0,LOW,none
+U18,0,LOW,none
+U19,0,LOW,none
+U20,0,LOW,none
+U21,0,LOW,none
+U22,0,LOW,none
+U23,0,LOW,none
+U24,0,LOW,none
+U25,0,LOW,none
+U26,0,LOW,none
+U27,0,LOW,none
+U28,0,LOW,none
+U29,0,LOW,none
+U30,0,LOW,none
+U31,0,LOW,none
+U32,0,LOW,none
+U33,0,LOW,none
+U34,0,LOW,none
+U35,0,LOW,none
+U36,95,HIGH,"account_sharing, gambling_activity, high_ip_risk_new_device"
+U37,30,LOW,high_ip_risk_new_device
+U38,15,LOW,account_sharing
+U39,0,LOW,none
+U40,30,LOW,account_sharing
+U41,60,MEDIUM,"account_sharing, high_ip_risk_new_device"
+U42,85,HIGH,"high_value_transaction, account_sharing, high_ip_risk_new_device"
+U43,100,HIGH,"high_value_transaction, account_sharing, high_ip_risk_new_device"
+U44,55,MEDIUM,"high_value_transaction, account_sharing, gambling_activity"
+U45,55,MEDIUM,"crypto_payment, high_ip_risk_new_device"

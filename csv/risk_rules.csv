@@ -1,0 +1,6 @@
+rule_id,condition,action,priority,is_active
+RR-01,service == 'BiP' && event_type == 'LOGIN' && meta contains 'device=new' && meta contains 'ip_risk=high',FORCE_2FA,1,True
+RR-02,service == 'Paycell' && event_type == 'PAYMENT' && value >= 1000,PAYMENT_REVIEW,3,True
+RR-03,service == 'Paycell' && event_type == 'PAYMENT' && meta contains 'merchant=GiftCards' && payments_15min_count >= 2,TEMPORARY_BLOCK,2,True
+RR-04,service == 'Paycell' && event_type == 'CHARGEBACK',OPEN_FRAUD_CASE,2,True
+RR-05,service == 'Superonline' && event_type == 'USAGE' && value > 15 && meta contains 'night_usage=true',ANOMALY_ALERT,4,True

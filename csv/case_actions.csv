@@ -1,0 +1,5 @@
+action_id,case_id,action_type,actor,note,timestamp
+CA-1,FC-101,TEMPORARY_BLOCK,SYSTEM,Burst gift card payments detected,2026-03-12T08:41:00Z
+CA-2,FC-101,BIP_NOTIFY,SYSTEM,User notified to verify activity,2026-03-12T08:42:00Z
+CA-3,FC-102,OPEN_FRAUD_CASE,SYSTEM,Chargeback received,2026-03-12T11:01:00Z
+CA-4,FC-103,FORCE_2FA,SYSTEM,High-risk login detected,2026-03-12T19:09:00Z

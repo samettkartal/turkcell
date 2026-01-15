@@ -1,0 +1,6 @@
+user_id,risk_score,risk_level,signals
+U1,72,MEDIUM,high_amount_payments|new_device_login
+U2,45,LOW,night_high_usage
+U3,88,HIGH,giftcard_burst
+U4,80,HIGH,chargeback
+U5,90,HIGH,high_ip_risk_new_device|crypto_payment

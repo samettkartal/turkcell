@@ -1,0 +1,9 @@
+rule_id,condition,action,priority,is_active
+RR-01,BiP new_device AND ip_risk=high,FORCE_2FA,1,True
+RR-02,Paycell PAYMENT > 5000 TRY AND merchant=CryptoExchange,CREATE_CASE,1,True
+RR-03,TV+ concurrent_streams > 3,SUSPEND_ACCOUNT,2,True
+RR-04,Paycell multiple_payments_15min > 5,RATE_LIMIT,2,True
+RR-05,Superonline PORT_SCAN detected,CREATE_CASE,1,True
+RR-06,BiP GROUP_CREATE count > 10 in 1hour,TEMP_BLOCK,3,True
+RR-07,Paycell merchant=GamblingWebsite AND value > 1000,NOTIFY_USER,3,True
+RR-08,Superonline bandwidth_spike > 200Mbps,MONITOR,4,True

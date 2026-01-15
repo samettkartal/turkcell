@@ -1,0 +1,13 @@
+event_id,user_id,service,event_type,value,unit,meta,timestamp
+EV-1001,U1,Paycell,PAYMENT,780.0,TRY,merchant=Electronics,2026-03-12T09:05:00Z
+EV-1002,U1,BiP,LOGIN,1.0,COUNT,device=new;ip_risk=medium,2026-03-12T09:07:00Z
+EV-1003,U1,Paycell,PAYMENT,820.0,TRY,merchant=Electronics,2026-03-12T09:12:00Z
+EV-2001,U2,Superonline,USAGE,18.4,GB,night_usage=true,2026-03-12T02:10:00Z
+EV-2002,U2,Paycell,PAYMENT,65.0,TRY,merchant=Grocery,2026-03-12T12:40:00Z
+EV-3001,U3,BiP,LOGIN,1.0,COUNT,device=known;ip_risk=low,2026-03-12T08:30:00Z
+EV-3002,U3,Paycell,PAYMENT,1200.0,TRY,merchant=GiftCards,2026-03-12T08:35:00Z
+EV-3003,U3,Paycell,PAYMENT,1300.0,TRY,merchant=GiftCards,2026-03-12T08:37:00Z
+EV-4001,U4,TV+,SUBSCRIPTION,1.0,COUNT,plan=premium,2026-03-12T10:05:00Z
+EV-4002,U4,Paycell,CHARGEBACK,1.0,COUNT,reason=fraud_suspected,2026-03-12T10:55:00Z
+EV-5001,U5,BiP,LOGIN,1.0,COUNT,device=new;ip_risk=high,2026-03-12T19:01:00Z
+EV-5002,U5,Paycell,PAYMENT,950.0,TRY,merchant=CryptoExchange,2026-03-12T19:06:00Z

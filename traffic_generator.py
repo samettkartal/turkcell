@@ -3,6 +3,7 @@ import requests
 import random
 import datetime
 import sqlite3
+import uuid
 
 API_URL = "http://localhost:8000/events"
 DB_PATH = "trustshield.db"
